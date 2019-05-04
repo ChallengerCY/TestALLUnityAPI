@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UnityEngine/UnityEngine.UI/Class/AspectRatioFitter/scene/AspectRatioFitter.unity
+  isLoaded: 1
+  isActive: 1
