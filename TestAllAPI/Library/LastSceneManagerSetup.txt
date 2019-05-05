@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UnityEngine/UnityEngine.UI/Class/AspectRatioFitter/scene/AspectRatioFitter.unity
+- path: Assets/UnityEngine/UnityEngine.UI/Class/BaseMeshEffect/scene/BaseMeshEffect.unity
   isLoaded: 1
   isActive: 1
