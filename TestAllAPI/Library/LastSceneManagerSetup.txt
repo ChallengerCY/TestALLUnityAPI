@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UnityEngine/UnityEngine.UI/Class/BaseMeshEffect/scene/BaseMeshEffect.unity
+- path: Assets/UnityEngine/UnityEngine.UI/Class/Button/scene/Button.unity
   isLoaded: 1
   isActive: 1

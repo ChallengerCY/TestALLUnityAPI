@@ -16,10 +16,14 @@ public class PositionAsUV1 : BaseMeshEffect
     protected override void Start()
     {
         StartCoroutine(enumerator());
+        state = true;
+        i = 0;
     }
 
+    
+
     /// <summary>
-    /// 
+    /// 该方法不会立即生效,在帧末调用，在下一帧刷新
     /// </summary>
     /// <param name="mesh"></param>
     public override void ModifyMesh(Mesh mesh)
@@ -41,9 +45,22 @@ public class PositionAsUV1 : BaseMeshEffect
         uvs.Clear();
     }
 
+    public bool state = true;
+    public int i = 0;
     private void Update()
     {
-        Debug.LogError(2);
+        i++;
+        if (i == 3)
+        {
+            ModifyMesh(new Mesh());
+            Debug.Log(i);
+        }
+        //if (state)
+        //{
+        //    Debug.LogError(2);
+           
+        //    state = false;
+        //}
         //ModifyMesh(new Mesh());
     }
 
@@ -56,9 +73,9 @@ public class PositionAsUV1 : BaseMeshEffect
 
     IEnumerator enumerator()
     {
-        yield return new WaitForEndOfFrame();
+        yield return null;
 
-        Debug.LogError(1);
-        ModifyMesh(new Mesh());
+        //Debug.LogError(1);
+        //ModifyMesh(new Mesh());
     }
 }

@@ -63,6 +63,7 @@
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\AnimationTriggers\script\Test_disabledTrigger.cs" />
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\AspectRatioFitter\script\Test_AspectRatioFitter.cs" />
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\BaseMeshEffect\PositionAsUV1.cs" />
+    <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\Button\script\Test_Button.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/OnePiece/GitHub/TestAllAPI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
