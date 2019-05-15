@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UnityEngine\Classes\Animation\script\ExampleClass.cs" />
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\AnimationTriggers\script\Test_disabledTrigger.cs" />
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\AspectRatioFitter\script\Test_AspectRatioFitter.cs" />
     <Compile Include="Assets\UnityEngine\UnityEngine.UI\Class\BaseMeshEffect\PositionAsUV1.cs" />
