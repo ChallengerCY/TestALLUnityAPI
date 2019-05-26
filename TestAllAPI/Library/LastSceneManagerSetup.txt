@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UnityEngine/UnityEngine.UI/Class/Button/scene/Button.unity
+- path: Assets/UnityEngine/Classes/Mathf/Scene/MathfScene.unity
   isLoaded: 1
   isActive: 1
